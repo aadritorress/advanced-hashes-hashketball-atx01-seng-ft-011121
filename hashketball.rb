@@ -145,6 +145,7 @@ end
 
 
 def team_colors(team)
+  binding.pry
   game_hash.each do |location, keys|
 if keys[:team_name] == team 
       return keys[:colors].map
